@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_diffrent_ui_part_3/modules/alert_dialog/alert.dart';
-import 'package:flutter_diffrent_ui_part_3/modules/open_external_app/external_app.dart';
-import 'package:flutter_diffrent_ui_part_3/modules/sliverAppBar/sliver.dart';
-import 'package:flutter_diffrent_ui_part_3/modules/stepper/stepper.dart';
+import 'package:flutter_diffrent_ui_part_3/modules/facebook_raction/fb_reaction_box.dart';
+import 'package:flutter_diffrent_ui_part_3/modules/finger_print_auth/auth.dart';
+
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget  {
   const MyApp({Key? key}) : super(key: key);
 
   @override
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home:  const OpenExternalAppScreen(),
+      home:  FbReactionBox(),
     );
   }
 }
